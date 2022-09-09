@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-@RequestMapping("scl")
-public class CIDController {
+@RequestMapping("filter")
+public class FilterController {
 
     private final AccountService accountService;
     private final StatementService statementService;
 
     @Autowired
-    public CIDController(AccountService accountService, StatementService statementService) {
+    public FilterController(AccountService accountService, StatementService statementService) {
         this.accountService = accountService;
         this.statementService = statementService;
     }

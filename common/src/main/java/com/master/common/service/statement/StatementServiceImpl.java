@@ -1,25 +1,22 @@
-package com.master.common.service.account;
+package com.master.common.service.statement;
 
-import com.master.common.dao.AccountRepository;
+import com.master.common.dao.StatementRepository;
 import com.master.common.model.Account;
+import com.master.common.model.Statement;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-public class AccountServiceImpl implements AccountService {
+public class StatementServiceImpl implements StatementService {
 
-    private final AccountRepository accountRepository;
+    private final StatementRepository statementRepository;
 
     @Autowired
-    public AccountServiceImpl(AccountRepository accountRepository) {
-        this.accountRepository = accountRepository;
+    public StatementServiceImpl(StatementRepository statementRepository) {
+        this.statementRepository = statementRepository;
     }
 
-    @Override
-    public void saveOrUpdate(Account account) {
-        accountRepository.save(account);
-        log.info("Saved account is: {}", account);
-    }
+
 }

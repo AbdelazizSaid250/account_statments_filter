@@ -1,7 +1,6 @@
-package com.master.common.service.account;
+package com.master.common.service.statement;
 
-import com.master.common.model.Account;
 
-public interface AccountService {
-    void saveOrUpdate(Account account);
+public interface StatementService {
+
 }

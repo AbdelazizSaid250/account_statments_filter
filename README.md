@@ -18,6 +18,7 @@ This is a web project using Java 1.8, Spring Boot, Spring JPA, Spring Data Rest,
 7. Open this url `http://localhost:8080/logout` to logout and it will redirect you to the login page.
 8. Do the same steps from step 5 with the user **_user_** and password **_user_**.
 9. Wait for 5 minutes and run this endpoint again `filter/userStatement`, the session will be invalidated and will redirect to the login page.
+10. Install SolarLing plugin to show you everything.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

@@ -43,7 +43,7 @@ public class NumberUtils {
                 finalStatement.add(statement);
             }
         }
-
+        log.info("final statements is {}", finalStatement);
         return finalStatement;
     }
 
@@ -73,6 +73,7 @@ public class NumberUtils {
             }
         }
 
+        log.info("final statements is {}", finalStatement);
         return finalStatement;
     }
 

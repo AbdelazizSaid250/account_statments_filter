@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 @RestController
 @RequestMapping("auth")
 public class AuthController {
+    // Will not be used.
     @GetMapping("logout")
     public void logoutPage(HttpServletRequest request, HttpServletResponse response) {
         log.info("11111111111111111");

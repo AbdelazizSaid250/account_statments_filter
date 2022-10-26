@@ -58,6 +58,7 @@
 
     <build>
         <plugins>
+<!--            wraps the project into an executable jar file-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
